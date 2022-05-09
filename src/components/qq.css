@@ -1,0 +1,68 @@
+.qq-content {
+    height: 600px;
+    width: 400px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 40px auto;
+}
+.qq-content-search {
+    height: 60px;
+}
+.qq-content-result {
+    height: 540px;
+}
+.btn-search {
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #dcdfe6;
+    color: #606266;
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    margin-left: 10px;
+    transition: .1s;
+    font-weight: 500;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #409eff;
+    border-color: #409eff;
+}
+.btn-search :hover {
+    background: #66b1ff;
+    border-color: #66b1ff;
+    color: #fff;
+}
+.spin {
+    margin-left: 50px;
+}
+.qq-content-result-user {
+    overflow: hidden;
+    margin: 20px 0px;
+    border: 1px solid #ddd;
+    padding: 10px 10px;
+}
+.qq-content-result-user-head {
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin-right: 20px;
+}
+.qq-content-result-user-head img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.qq-content-result-user-info {
+    float: left;
+    height: 60px;
+    line-height: 60px;
+}
